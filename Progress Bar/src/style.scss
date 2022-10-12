@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New';
+}
+.wrapper {
+  display: inline-block;
+}
+.wrapper-cell {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.bar-cell {
+  border-radius: 25%;
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.bar-legend {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+#root {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 250px;
+}
